@@ -1,8 +1,8 @@
 # learning-docker-with-thomas
 
-This presentation session will go through the basics of Docker and illustrate its importance in modern DevOps. We will also go through a demo for setting up our own Docker image of the LAMP stack (Linux, Apache, MySQL, PHP) together with a sample application.
+This presentation session will go through the basics of Docker and illustrate its importance in modern DevOps. We will also go through a demo of setting up our own Docker image for the LAMP stack (Linux, Apache, MySQL, PHP) together with a sample application.
 
-You can download or clone this repository for the source code used in this presentation.
+You can download or clone this repository for the source codes used in this presentation.
 
 [Click here for Sides / Notes] (http://bit.ly/2likqTS)
 <br /><br /><br />
