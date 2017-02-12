@@ -11,9 +11,9 @@ RUN a2enmod ssl
 COPY cert/server.crt /etc/ssl/certs/
 COPY cert/server.key /etc/ssl/certs/
 
-ADD conf/000-default.conf /etc/apache2/sites-enabled/
-ADD conf/default-ssl.conf /etc/apache2/sites-enabled/
-ADD conf/apache2.conf /etc/apache2/
+COPY conf/000-default.conf /etc/apache2/sites-enabled/
+COPY conf/default-ssl.conf /etc/apache2/sites-enabled/
+COPY conf/apache2.conf /etc/apache2/
 
 COPY public/ /var/www/html/
 COPY .env /var/www/html/
